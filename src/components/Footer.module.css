@@ -1,0 +1,22 @@
+.icon2 {
+    width: 80px;
+    min-width: 70px;
+    height: auto;
+    border-radius: 25%;
+}
+
+.footercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 80px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 1px 1px 6px 1px black;
+}
+

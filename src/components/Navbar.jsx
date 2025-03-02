@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className={NavbarStyles.navbar}>
         <div className="flex justify-center items-center gap-14 p-2 mb-2 w-full">
-            <div className='iconcontainer'>
+            <div className='iconcontainer md:mr-40'>
                 <img src={Icon} alt="PNP-Power icon" className={NavbarStyles.icon} />
             </div>
             <div className="buttonscontainer">
