@@ -2,3 +2,8 @@
 
 *** This is an upgrade to a car mechanic website ***
 
+Tech stack used:
+
+* React.js
+* Tailwind CSS
+* Bootstrap
