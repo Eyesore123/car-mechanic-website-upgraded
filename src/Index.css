@@ -13,7 +13,7 @@ button {
 }
 
 p {
-  @apply text-black text-2xl pt-15 pb-15 justify-self-center max-w-1/2 text-center;
+  @apply text-black text-2xl pt-15 pb-15 m-4 justify-self-center md:max-w-2/3 text-center;
 }
 
 body {
