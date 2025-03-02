@@ -1,9 +1,14 @@
 import React from 'react'
+import '../../src/Styles.css'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <div>
-        <h1>PNP-POWER</h1>
+        <Navbar />
+        <h1 className='text-6xl'>PNP-POWER</h1>
+        <Footer />
     </div>
   )
 }

@@ -1,12 +1,20 @@
 import './Index.css'
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// Pages
+import Home from './pages/Home'
+import Contact from './pages/Contact'
 
 function App() {
 
   return (
-    <>
-      <h1>React App</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
