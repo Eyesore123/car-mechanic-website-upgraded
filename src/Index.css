@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
-/* .App {
-  background-color: aqua;
-} */
+.footer {
+  @apply bg-gray-800 text-white bottom-0 fixed w-full;
+}
 
-/* h1, h2, h3, h4, h5, h6 {
-  font-size: 25px;
-} */
+.textbox {
+  @apply bg-white text-black m-10 p-2;
+}
+
+.header {
+  @apply text-white text-4xl mt-18;
+}
+
+button {
+  @apply p-2;
+}
