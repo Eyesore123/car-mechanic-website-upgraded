@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .textbox {
-  @apply bg-white text-black mt-30 pt-20 pb-20 box-border shadow-amber-500 shadow-sm;
+  @apply bg-white text-black mt-30 pt-12 pb-20 box-border;
 }
 
 .header {
@@ -13,9 +13,19 @@ button {
 }
 
 p {
-  @apply text-black text-2xl pt-15 pb-15 m-4 justify-self-center md:max-w-2/3 text-center;
+  @apply text-black text-2xl pt-10 pb-10 m-4 justify-self-center md:max-w-2/3 text-center;
 }
 
 body {
   @apply overflow-scroll;
 }
+
+.mainheader {
+  @apply text-center text-7xl font-bold mt-10 pt-20
+}
+
+h3 {
+  @apply pt-14 pb-10
+}
+
+/* .textbox li  */

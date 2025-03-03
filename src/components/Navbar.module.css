@@ -25,14 +25,14 @@
     border-radius: 25%;
 }
 
-.instaicon {
+.instaicon, .tiktokicon {
     width: 50px;
     min-width: 40px;
     height: auto;
     border-radius: 25%;
 }
 
-.instaicon:hover {
+.instaicon:hover, .tiktokicon:hover {
     transition: 0.3s;
     scale: 1.1;
 }

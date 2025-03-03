@@ -7,14 +7,14 @@ export default function ImageCarousel() {
     <div className='carouselcontainer justify-center height-100 bg-cyan-300'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="10000">
-            <img src="../../public/img4.jpg" className="d-block" alt="jotain" />
+            <div className="carousel-item active" data-bs-interval="5000">
+            <img src="../../public/turbosystems.jpg" className="d-block" alt="jotain" />
             </div>
             <div className="carousel-item">
             <img src="../../public/pakosarjat.jpg" className="d-block" alt="pakosarjat" />
             </div>
             <div className="carousel-item">
-            <img src="../../public/img3.jpg" className="d-block" alt="kolmonen" />
+            <img src="../../public/img15.jpg" className="d-block" alt="kolmonen" />
             </div>
         </div>
         <button className="carousel-control-prev scale-50" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
