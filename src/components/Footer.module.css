@@ -8,20 +8,29 @@
 .footercontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
     justify-content: center;
     gap: 40px;
+    font-size: 20px;
     justify-items: center;
     align-items: center;
-    background-color: white;
-    color: black;
+    color: white;
     bottom: 0;
     width: 100%;
     padding: 20px;
-    box-shadow: 1px 1px 6px 1px black;
+    box-shadow: 1px 1px 6px 1px grey;
 }
 
 .footericon {
     width: 30px;
     height: auto;
+    filter: invert(1);
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    height: 200px;
+}

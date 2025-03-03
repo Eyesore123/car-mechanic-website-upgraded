@@ -14,7 +14,8 @@
 .navbutton:hover {
     background-color: rgb(39, 43, 43);
     cursor: pointer;
-    transition: 0.3s;
+    border-radius: 5%;
+    transition: 0.1s;
     scale: 1.1;
 }
 
@@ -33,6 +34,6 @@
 }
 
 .instaicon:hover, .tiktokicon:hover {
-    transition: 0.3s;
+    transition: 0.1s;
     scale: 1.1;
 }
