@@ -27,7 +27,16 @@ export default function Home() {
 
           <p>Palveluvalikoimaamme kuuluu mm.</p>
           <div className='listcontainer flex justify-center'>
-            <li>segfseg</li>
+
+            <li>Tig-hitsaus (myös alumiini) vanteet yms.</li>
+            <li>Pakosarjatarvikkeiden/ pakosarjojen myynti ja valmistus</li>
+            <li>Turbosystems-ahtimien jälleenmyynti (uusi!)</li>
+            <li>Johtosarjojen suunnittelu ja valmistus</li>
+            <li>Sorvaus- ja jyrsintyöt, taso-oikaisut yms.</li>
+            <li>2wd autojen tehomittaukset ja säädöt sekä viranomaistodistus muutoskatsastusta varten</li>
+            <li>Vikadiagnostiikka</li>
+            <li>Varaosien myynti</li>
+            <li>Trailerikuljetuspalvelut, henkilöautojen nouto/vienti kotipihasta yms.</li>
           </div>
         </div>
         <Footer />
