@@ -21,10 +21,11 @@ export default function Products() {
           <li>T3 laippa 11€</li>
           <li>T4 laippa 13€</li>
         </p>
+        jnjknkjnkj
         <h3>Ilmastointihuollot</h3>
           <p>
             <li>Sis. 200g kylmäainetta (r134a)&nbsp;45€</li>
-            <li>Sis. 50g kylmäainetta (r123yf)60€</li>
+            <li>Sis. 50g kylmäainetta (r123yf) 60€</li>
 
           </p>
         </div>

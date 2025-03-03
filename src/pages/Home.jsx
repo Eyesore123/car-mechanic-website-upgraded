@@ -3,6 +3,7 @@ import '../../src/Styles.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import ImageCarousel from '../components/ImageCarousel'
+import VideoBackground from '../components/Video'
 
 export default function Home() {
   return (
@@ -11,21 +12,21 @@ export default function Home() {
         <h1 className='mainheader'>PNP-POWER</h1>
         <div className='text-center header text-4xl m-10'>Tervetuloa PNP-Powerin sivuille!
         </div>
-        <div className='textbox'>
+        <div className='textbox text-center'>
             <p>PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt.
             Oikeastaan kaikki mikä liittyy kilpa-autoiluun.
             </p>
             <p>
-            Jälleenmyyn Turbosystems-turboahtimia,
-            Voimansiirto-osia
-            Moottoriosia 
+            Jälleenmyymme Turbosystems-turboahtimia,
+            voimansiirto-osia
+            moottoriosia 
             Fmic.eu tavarat.
             </p>
         </div>
         <ImageCarousel />
         <div className='textbox'>
 
-          <p>Palveluvalikoimaamme kuuluu mm.</p>
+          <h3 className='text-center'>Palveluvalikoimaamme kuuluu mm.</h3>
           <div className='listcontainer flex justify-center'>
 
             <li>Tig-hitsaus (myös alumiini) vanteet yms.</li>
@@ -39,6 +40,7 @@ export default function Home() {
             <li>Trailerikuljetuspalvelut, henkilöautojen nouto/vienti kotipihasta yms.</li>
           </div>
         </div>
+        <VideoBackground />
         <Footer />
     </div>
   )

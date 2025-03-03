@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .textbox {
-  @apply bg-white text-black mt-30 pt-12 pb-20 box-border;
+  @apply bg-white justify-center text-black mt-30 pt-12 pb-20 box-border;
 }
 
 .header {
@@ -13,7 +13,7 @@ button {
 }
 
 p {
-  @apply text-black text-2xl pt-10 pb-10 m-4 justify-self-center md:max-w-2/3 text-center;
+  @apply text-black text-2xl pt-10 pb-10 m-4 justify-self-center md:max-w-2/3 w-full;
 }
 
 body {
@@ -29,3 +29,20 @@ h3 {
 }
 
 /* .textbox li  */
+
+.listcontainer {
+  @apply flex flex-wrap justify-center
+}
+
+.listcontainer li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;
+  text-align: center;
+  
+}
+/* 
+.listcontainer li::marker {
+  font-size: 1.5em;
+} */

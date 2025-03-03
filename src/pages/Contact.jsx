@@ -7,7 +7,7 @@ export default function Contact() {
     <>
     <Navbar />
     <div className='text-center header'>Yhteydenotto</div>
-    <div className='textbox text-center'>
+    <div className='textbox text-center min-h-[55vh]'>
       <p>Yhteydenotto</p>
     </div>
     <Footer />

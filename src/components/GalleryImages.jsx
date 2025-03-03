@@ -9,10 +9,22 @@ export default function GalleryImages() {
     const images = [
         { id: 1, src: '../../public/turbosystems.jpg', alt: 'turbosystems' },
         { id: 2, src: '../../public/pakosarjat.jpg', alt: 'pakosarjat' },
-        { id: 3, src: '../../public/img15.jpg', alt: 'k3' },
+        { id: 3, src: '../../public/img15.jpg', alt: 'jotain' },
         { id: 4, src: '../../public/img1.jpg', alt:'1' },
         { id: 5, src: '../../public/img2.jpg', alt:'2' },
-
+        { id: 6, src: '../../public/img3.jpg', alt:'3' },
+        { id: 7, src: '../../public/img15.jpg', alt:'4' },
+        { id: 8, src: '../../public/img5.jpg', alt:'5' },
+        { id: 9, src: '../../public/img6.jpg', alt:'6' },
+        { id: 10, src: '../../public/img7.jpg', alt:'7' },
+        { id: 11, src: '../../public/img8.jpg', alt:'8' },
+        { id: 12, src: '../../public/img9.jpg', alt:'9' },
+        { id: 13, src: '../../public/img10.jpg', alt:'10' },
+        { id: 14, src: '../../public/img11.jpg', alt:'11' },
+        { id: 15, src: '../../public/img12.jpg', alt:'12' },
+        { id: 16, src: '../../public/img13.jpg', alt:'13' },
+        { id: 17, src: '../../public/img14.jpg', alt:'14' },
+        { id: 18, src: '../../public/img4.jpg', alt:'15' },
       ];
 
       const handlePictureClick = (picture) => {

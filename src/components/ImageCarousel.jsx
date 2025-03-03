@@ -11,7 +11,7 @@ export default function ImageCarousel() {
             <img src="../../public/turbosystems.jpg" className="d-block" alt="jotain" />
             </div>
             <div className="carousel-item">
-            <img src="../../public/pakosarjat.jpg" className="d-block" alt="pakosarjat" />
+            <img src="../../public/pakosarjat.jpg" className="d-block object-fit-contain" alt="pakosarjat" />
             </div>
             <div className="carousel-item">
             <img src="../../public/img15.jpg" className="d-block" alt="kolmonen" />

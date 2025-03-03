@@ -1,6 +1,6 @@
 .carousel-item img {
     margin: auto;
     width: 100%;
-    max-height: 950px; /* adjust this value to your desired height */
+    max-height: 1100px; /* adjust this value to your desired height */
     object-fit: cover;
   }
