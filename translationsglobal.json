@@ -17,41 +17,37 @@
         "fi": "Palveluvalikoimaamme kuuluu mm."
       },
         "list": {
-            "list1": {
-                "en": "About us",
-                "fi": "Meistä"
-            },
             "list2": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Tig-hitsaus (myös alumiini) vanteet yms."
             },
             "list3": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Pakosarjatarvikkeiden/ pakosarjojen myynti ja valmistus"
             },
             "list4": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Ilmastointihuollot"
             },
             "list5": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Johtosarjojen suunnittelu ja valmistus"
             },
             "list6": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Sorvaus- ja jyrsintyöt, taso-oikaisut yms."
             },
             "list7": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "2wd autojen tehomittaukset ja säädöt sekä viranomaistodistus muutoskatsastusta varten"
             },
             "list8": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Vikadiagnostiikka"
             },
             "list9": {
                 "en": "About us",
-                "fi": "Meistä"
+                "fi": "Varaosien myynti"
             }
         }
     },
@@ -92,7 +88,7 @@
             "fi": "Y-tunnus:"
         }
       },
-      
+
      "navbar": {
         "nav1": {
             "en": "Home",

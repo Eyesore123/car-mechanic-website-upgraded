@@ -32,7 +32,7 @@ export default function Home() {
 
             <li>Tig-hitsaus (myös alumiini) vanteet yms.</li>
             <li>Pakosarjatarvikkeiden/ pakosarjojen myynti ja valmistus</li>
-            <li>Turbosystems-ahtimien jälleenmyynti (uusi!)</li>
+            <li>Ilmastointihuollot</li>
             <li>Johtosarjojen suunnittelu ja valmistus</li>
             <li>Sorvaus- ja jyrsintyöt, taso-oikaisut yms.</li>
             <li>2wd autojen tehomittaukset ja säädöt sekä viranomaistodistus muutoskatsastusta varten</li>

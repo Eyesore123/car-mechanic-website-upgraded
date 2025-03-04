@@ -5,7 +5,7 @@ import Videoelement from '../assets/video1.mp4'
 export default function VideoBackground() {
 
   const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   function togglePlayback() {
     if (isPlaying) {
