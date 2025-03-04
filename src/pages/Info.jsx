@@ -2,7 +2,8 @@ import React from 'react'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Phone from '../assets/Phone.svg'
+import Map from '../components/Map'
+// import Phone from '../assets/Phone.svg'
 
 export default function Info() {
   return (
@@ -39,7 +40,8 @@ export default function Info() {
       <li>Y-tunnus: 3320795-6 </li>
       </p>
     </div>
-        <Footer />
+    {/* <Map /> */}
+    <Footer />
     </div>
   )
 }

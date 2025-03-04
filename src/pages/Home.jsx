@@ -13,15 +13,17 @@ export default function Home() {
         <div className='text-center header text-4xl m-10'>Tervetuloa PNP-Powerin sivuille!
         </div>
         <div className='textbox text-center'>
-            <p>PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt.
-            Oikeastaan kaikki mikä liittyy kilpa-autoiluun.
-            </p>
-            <p>
-            Jälleenmyymme Turbosystems-turboahtimia,
-            voimansiirto-osia
-            moottoriosia 
-            Fmic.eu tavarat.
-            </p>
+          <div className='listcontainer flex justify-center'>
+              <p>PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt.
+              Oikeastaan kaikki mikä liittyy kilpa-autoiluun.
+              </p>
+              <p>
+              Jälleenmyymme Turbosystems-turboahtimia,
+              voimansiirto-osia
+              moottoriosia 
+              Fmic.eu tavarat.
+              </p>
+            </div>
         </div>
         <ImageCarousel />
         <div className='textbox'>

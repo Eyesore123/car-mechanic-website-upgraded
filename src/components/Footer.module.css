@@ -1,13 +1,13 @@
 .icon2 {
-    width: 80px;
-    min-width: 70px;
+    width: 120px;
+    min-width: 60px;
     height: auto;
     border-radius: 25%;
 }
 
 .footercontainer {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 0fr;
+    grid-template-columns: 4fr 4fr 3fr 1fr;
     background-color: black;
     justify-content: space-around;
     font-size: 20px;
@@ -16,18 +16,19 @@
     color: white;
     bottom: 0;
     width: 100%;
-    gap: 150px;
-    padding: 50px;
     box-shadow: 1px 1px 6px 1px grey;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .footercontainer {
-        gap: 15px;
+        grid-template-columns: 3fr 2fr 1fr;
+        gap: 10px;
         font-size: 0.9em;
+        padding-left: 15px;
     }
     .footer {
         margin-right: 0px;
+        scale: 0.8;
     }
 }
 
