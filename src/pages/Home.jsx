@@ -2,6 +2,7 @@ import React from 'react'
 import '../../src/Styles.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Cookiebanner from '../components/Cookiebanner'
 import ImageCarousel from '../components/ImageCarousel'
 import VideoBackground from '../components/Video'
 
@@ -43,6 +44,7 @@ export default function Home() {
         </div>
         <VideoBackground />
         <Footer />
+        <Cookiebanner />
     </div>
   )
 }

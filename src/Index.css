@@ -50,3 +50,7 @@ h3 {
 .listcontainer li::marker {
   font-size: 1.5em;
 } */
+
+* {
+  max-width: 100vw;
+}

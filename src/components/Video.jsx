@@ -26,6 +26,7 @@ export default function VideoBackground() {
               muted
               className='video-bg_video'
               id='video-bg_video'
+              style={{ boxShadow: '0 -10px 10px rgba(255, 255, 255, 0.8)' }}
           >
 
           <source src={Videoelement} type="video/mp4" />
