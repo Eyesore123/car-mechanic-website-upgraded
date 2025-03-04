@@ -56,6 +56,7 @@ export default function GalleryImages() {
                 zIndex: enlargedPicture === image.id ? 1000 : '',
                 opacity: 1,
                 boxShadow: enlargedPicture === image.id ? 'none' : '0px 0px 10px rgba(0, 0, 0, 0.2)',
+                cursor: 'pointer',
               }}
               onMouseOver={(e) => {
                 e.target.style.transform = 'scale(1.1)';
