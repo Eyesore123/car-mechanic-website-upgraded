@@ -42,6 +42,10 @@ h3 {
   text-align: center;
   
 }
+
+.pausebtn {
+  @apply absolute top-0 left-0 w-full h-full cursor-pointer;
+}
 /* 
 .listcontainer li::marker {
   font-size: 1.5em;

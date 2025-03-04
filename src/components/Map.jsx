@@ -16,7 +16,7 @@ export default function Map() {
 
     const google = await loader.load();
     try {
-      const location = { lat: 62.05625, lng: 28.22006 };
+      const location = { lat: 62.056138, lng: 28.220649 };
       const mapInstance = new google.maps.Map(mapRef.current, {
         zoom: 11,
         center: location,

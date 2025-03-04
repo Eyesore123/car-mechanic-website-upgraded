@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div className={FooterStyles.footercontainer}>
-    <Link to="/">
+    <Link to="/" onClick={() => window.scrollTo(0, 0)}>
     <button className='cursor-pointer'>
         <img src={Icon2} alt="PNP-Power icon2" className={FooterStyles.icon2} />
     </button>
