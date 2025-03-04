@@ -1,5 +1,6 @@
 import React from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
+import apiKey from '../../Other_files/key.js';
 
 export default function Map() {
   const mapRef = React.createRef();
@@ -7,8 +8,9 @@ export default function Map() {
   const [showMap, setShowMap] = React.useState(true);
 
   async function initMap() {
+
     const loader = new Loader({
-      apiKey: 'YOUR_API_KEY',
+      apiKey: apiKey,
       version: 'weekly',
     });
 
@@ -21,6 +23,15 @@ export default function Map() {
         mapId: "PNP-POWER",
       });
       setMap(mapInstance);
+
+      // Marker
+
+      const marker = new google.maps.Marker({
+        position: location,
+        map: mapInstance,
+        title: 'PNP-POWER',
+      });
+      
     } catch (error) {
       console.error('Error initializing map:', error);
       setShowMap(false);
@@ -34,7 +45,7 @@ export default function Map() {
   return (
     <div className="mapcontainer">
       {showMap && (
-        <div ref={mapRef} style={{ height: '400px', width: '100%' }} />
+        <div ref={mapRef} style={{ height: '600px', width: '100%' }} />
       )}
     </div>
   );

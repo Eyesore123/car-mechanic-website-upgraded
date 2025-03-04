@@ -12,7 +12,7 @@ export default function Info() {
         <div className='text-center header'>
     Yhteystiedot
     </div>
-    <div className='textbox text-center min-h-[55vh]'>
+    <div className='textbox text-center min-h-[55vh] -mb-8'>
       <p className='w-full'>
       <li>Niko Putkinen</li>
       <br />    
