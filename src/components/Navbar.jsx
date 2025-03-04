@@ -1,12 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import * as NavbarStyles from './Navbar.module.css'
 
 import Icon from '../../public/icon.png'
 import InstaIcon from '../assets/insta.png'
 import TiktokIcon from '../assets/tiktok.png'
+import translations from '../../translations.json'
 
 export default function Navbar() {
+
+    const [language, setLanguage] = useState('en');
+
+    const handleLanguageChange = (event) => {
+      setLanguage(language === 'en' ? 'fi' : 'en');
+    };
+
   return (
     <div className={NavbarStyles.navbar}>
         <div className="flex justify-center items-center gap-3 sm:gap-14 md:gap-10 lg:gap-60 p-2 mb-2 w-full">
@@ -26,20 +34,25 @@ export default function Navbar() {
               <Link to="/info"><button className={NavbarStyles.navbutton}>Yhteystiedot</button></Link>
               </div>
             </div>
-              <div className="socialcontainer md:ml-10">
-              <button className='ml-2 mr-2'>
-              <a href="https://www.instagram.com/putkinen_/" target="_blank
-              " rel="noreferrer">
-                <img src={InstaIcon} alt="Instagram icon" className={NavbarStyles.instaicon} />
-              </a>
-              </button>
+              <div className="md:ml-10 md:flex md:items-center">
+                <button className='ml-2 mr-2'>
+                <a href="https://www.instagram.com/putkinen_/" target="_blank
+                " rel="noreferrer">
+                  <img src={InstaIcon} alt="Instagram icon" className={NavbarStyles.instaicon} />
+                </a>
+                </button>
 
-              <button className='ml-2 mr-2'>
-              <a href="https://www.tiktok.com/@putkinen__" target="_blank
-              " rel="noreferrer">
-                <img src={TiktokIcon} alt="Tiktok icon" className={NavbarStyles.tiktokicon} />
-              </a>
-              </button>
+                <button className='ml-2 mr-2'>
+                <a href="https://www.tiktok.com/@putkinen__" target="_blank
+                " rel="noreferrer">
+                  <img src={TiktokIcon} alt="Tiktok icon" className={NavbarStyles.tiktokicon} />
+                </a>
+                </button>
+              
+                {/* <button className={NavbarStyles.languagebutton} onClick={handleLanguageChange}>
+                {translations[language].language}
+                </button> */}
+          
             </div>
 
         </div>

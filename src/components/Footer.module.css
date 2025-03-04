@@ -21,14 +21,14 @@
 
 @media screen and (max-width: 1200px) {
     .footercontainer {
-        grid-template-columns: 3fr 2fr 1fr;
-        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px;
         font-size: 0.9em;
-        padding-left: 15px;
+        margin: 20px 0;
     }
     .footer {
         margin-right: 0px;
-        scale: 0.8;
+        scale: 0.7;
     }
 }
 

@@ -7,3 +7,4 @@ Tech stack used:
 * React.js
 * Tailwind CSS
 * Bootstrap
+* Node.js - i18n package for internalization

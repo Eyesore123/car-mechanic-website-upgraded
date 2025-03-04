@@ -37,3 +37,10 @@
     transition: 0.1s;
     scale: 1.1;
 }
+
+.languagebutton {
+    height: 66px;
+    width: 66px;
+    align-self: center;
+    font-size: 20px;
+}

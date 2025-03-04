@@ -19,9 +19,8 @@ export default function Home() {
               </p>
               <p>
               Jälleenmyymme Turbosystems-turboahtimia,
-              voimansiirto-osia
-              moottoriosia 
-              Fmic.eu tavarat.
+              voimansiirto-osia,
+              moottoriosia ja renkaita.
               </p>
             </div>
         </div>
