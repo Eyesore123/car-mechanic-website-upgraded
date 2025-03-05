@@ -31,11 +31,12 @@
     "contactinfo.address": "Address:",
     "contactinfo.y-tunnus": "Business ID:",
     "cookiebanner.p1": "This website uses mandatory cookies to enable basic functions.",
-    "cookiebanner.button": "Accept"
+    "cookiebanner.button": "Accept",
+    "product.heading": ""
   },
   "fi": {
     "home.heading1": "Tervetuloa PNP-Powerin sivuille!",
-    "home.paragraph1": "PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt. Oikeastaan kaikki mikä liittyy kilpa-autoiluun.",
+    "home.paragraph1": "PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen valmistus sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt. Oikeastaan kaikki mikä liittyy kilpa-autoiluun.",
     "home.paragraph2": "Jälleenmyymme Turbosystems-turboahtimia, voimansiirto-osia, moottoriosia ja renkaita.",
     "home.heroheader": "Palveluvalikoimaamme kuuluu mm.",
     "home.listitem1": "TIG-hitsaus (myös alumiini) vanteet yms.",
@@ -65,6 +66,7 @@
     "contactinfo.address": "Osoite:",
     "contactinfo.y-tunnus": "Y-tunnus:",
     "cookiebanner.p1": "Tämä sivusto käyttää pakollisia evästeitä perustoimintojen mahdollistamiseksi.",
-    "cookiebanner.button": "Hyväksyn"
+    "cookiebanner.button": "Hyväksyn",
+    "product.heading": ""
   }
 }
