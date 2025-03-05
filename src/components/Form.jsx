@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import * as Formstyles from './Form.module.css'
+
+import { useTranslation } from 'react-i18next';
+import { LanguageContext } from '../context/LanguageContext';
 export default function Form() {
+
+    const { t } = useTranslation();
+    const { language, changeLanguage } = useContext(LanguageContext);
 
     const handleSubmit = async (event) => {
         event.preventDefault();

@@ -4,14 +4,14 @@ import './Images.Module.css';
 
 export default function ImageCarousel() {
   return (
-    <div className='carouselcontainer justify-center height-100 bg-cyan-300'>
+    <div className='carouselcontainer justify-center height-100 bg-cyan-300 -mb-10'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="5000">
             <img src="../../public/turbosystems.jpg" className="d-block" alt="jotain" />
             </div>
             <div className="carousel-item">
-            <img src="../../public/pakosarjat.jpg" className="d-block object-fit-contain" alt="pakosarjat" />
+            <img src="../../public/img5.jpg" className="d-block" alt="pakosarjat" />
             </div>
             <div className="carousel-item">
             <img src="../../public/img15.jpg" className="d-block" alt="kolmonen" />
@@ -29,3 +29,5 @@ export default function ImageCarousel() {
     </div>
   )
 }
+
+// Use object-fit-contain on the carousel img if the image is not as wide!

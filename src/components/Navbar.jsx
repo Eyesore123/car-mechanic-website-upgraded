@@ -34,7 +34,7 @@ export default function Navbar() {
               <Link to="/info"><button className={NavbarStyles.navbutton}>{t('navbar.nav5')}</button></Link>
               </div>
             </div>
-              <div className="md:ml-10 md:flex md:items-center">
+              <div className="flex flex-col justify-center items-center md:ml-10 md:flex-row">
                 <button className='ml-2 mr-2'>
                 <a href="https://www.instagram.com/putkinen_/" target="_blank
                 " rel="noreferrer">

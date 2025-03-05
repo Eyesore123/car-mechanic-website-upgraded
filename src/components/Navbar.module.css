@@ -26,6 +26,14 @@
     border-radius: 25%;
 }
 
+@media screen and (max-width: 549px) {
+    .instaicon, .tiktokicon, .languagebutton {
+        max-width: 66px;
+        max-height: 66px;
+    }
+
+}
+
 .instaicon, .tiktokicon {
     width: 50px;
     min-width: 40px;
