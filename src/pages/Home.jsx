@@ -35,14 +35,14 @@ export default function Home() {
           <div className='listcontainer flex justify-center mb-14'>
 
             <li>{t('home.listitem1')}</li>
-            <li>Pakosarjatarvikkeiden/ pakosarjojen myynti ja valmistus</li>
-            <li>Ilmastointihuollot</li>
-            <li>Johtosarjojen suunnittelu ja valmistus</li>
-            <li>Sorvaus- ja jyrsintyöt, taso-oikaisut yms.</li>
-            <li>2wd autojen tehomittaukset ja säädöt sekä viranomaistodistus muutoskatsastusta varten</li>
-            <li>Vikadiagnostiikka</li>
-            <li>Varaosien myynti</li>
-            <li>Trailerikuljetuspalvelut, henkilöautojen nouto/vienti kotipihasta yms.</li>
+            <li>{t('home.listitem2')}</li>
+            <li>{t('home.listitem3')}</li>
+            <li>{t('home.listitem4')}</li>
+            <li>{t('home.listitem5')}</li>
+            <li>{t('home.listitem6')}</li>
+            <li>{t('home.listitem7')}</li>
+            <li>{t('home.listitem8')}</li>
+            <li>{t('home.listitem9')}</li>
           </div>
         </div>
         <VideoBackground />

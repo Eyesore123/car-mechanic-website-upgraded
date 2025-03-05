@@ -5,12 +5,17 @@ import Footer from '../components/Footer'
 import Map from '../components/Map'
 // import Phone from '../assets/Phone.svg'
 
+import { useTranslation } from 'react-i18next';
+
 export default function Info() {
+
+  const { t } = useTranslation();
+
   return (
     <div>
         <Navbar />
         <div className='text-center header'>
-    Yhteystiedot
+    {t('info.info_heading')}
     </div>
     <div className='textbox text-center min-h-[55vh] -mb-8'>
       <p className='w-full'>
@@ -19,7 +24,7 @@ export default function Info() {
         <span>
           <li className='flex justify-center gap-4 items-center'>
             {/* <img src={Phone} width={30} className='flex'></img> */}
-            Puhelin:
+            {t('contactinfo.phone')}
           </li>
           <li>
           040 841 4698
@@ -31,13 +36,14 @@ export default function Info() {
           className='flex justify-center gap-4 items-center'
           >
             {/* <img src={Phone} width={30} className='flex'></img> */}
-            Osoite:
+            {t('contactinfo.address')}
           </li>
         </span>
         <li>Kankaisentie 127</li>
         <li>58900 Rantasalmi</li>
       <br />
-      <li>Y-tunnus: 3320795-6 </li>
+      <li>{t('contactinfo.y-tunnus') + " "} 
+      3320795-6 </li>
       </p>
     </div>
     {/* <Map /> */}

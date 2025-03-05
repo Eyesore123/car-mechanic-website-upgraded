@@ -33,21 +33,21 @@ export default function Form() {
 
   return (
     <div>
-    <h3>Ota yhteyttä</h3>
+    <h3>{t('contact.contact_header')}</h3>
       <form action="https://formspree.io/f/xeoqdklk" className={Formstyles.form} method="POST" onSubmit={handleSubmit}>
-        <label className={Formstyles.label} htmlFor="name">Nimi:</label>
+        <label className={Formstyles.label} htmlFor="name">{t('contact.contact_name')}</label>
         <input type="text" id="name" className={Formstyles.centered} name="name" required />
 
-        <label className={Formstyles.label} htmlFor="email">Sähköpostiosoite:</label>
+        <label className={Formstyles.label} htmlFor="email">{t('contact.contact_email')}</label>
         <input type="email" id="email" className={Formstyles.centered} name="email" required />
 
-        <label className={Formstyles.label} htmlFor="message">Viesti:</label>
+        <label className={Formstyles.label} htmlFor="message">{t('contact.contact_message')}</label>
         <textarea id="message" className={Formstyles.centered + " " + Formstyles.textarea} name="message" required></textarea>
 
-        <button type="submit" className={Formstyles.submitbtn}>Lähetä viesti</button>
+        <button type="submit" className={Formstyles.submitbtn}>{t('contact.button')}</button>
 
         <div id="message-sent" className={Formstyles.msgsent} style={{ display: "none" }}>
-          <p>Viestisi on lähetetty onnistuneesti! Vastaamme mahdollisimman pian.</p>
+          <p>{t('contact.feedback')}</p>
         </div>
       </form>
     </div>
