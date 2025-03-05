@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import * as Cookiebannerstyles from './Cookiestyles.module.css';
 
+import { useTranslation } from 'react-i18next';
+import { LanguageContext } from '../context/LanguageContext';
+
 export default function Cookiebanner() {
-  const [cookiesAccepted, setCookiesAccepted] = useState(false);
+    const { t } = useTranslation();
+    const { language, changeLanguage } = useContext(LanguageContext);
+    const [cookiesAccepted, setCookiesAccepted] = useState(false);
 
   function acceptCookies() {
     setCookiesAccepted(true);
@@ -27,11 +32,11 @@ export default function Cookiebanner() {
         <div id="cookiebanner" className={Cookiebannerstyles.cookiediv}>
           <div className={Cookiebannerstyles.bannertext}>
             <div className={Cookiebannerstyles.bannertext}>
-              Tämä sivusto käyttää pakollisia evästeitä perustoimintojen mahdollistamiseksi.
+              {t('cookiebanner.p1')}
             </div>
             <div className={Cookiebannerstyles.cookiebtnbox}>
               <button className={Cookiebannerstyles.cookiebtn} onClick={acceptCookies}>
-                Hyväksyn
+                {t('cookiebanner.button')}
               </button>
             </div>
           </div>

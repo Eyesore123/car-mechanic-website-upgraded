@@ -14,7 +14,9 @@
     "info.info_heading": "Contact info",
     "contactinfo.phone": "Phone:",
     "contactinfo.address": "Address:",
-    "contactinfo.y-tunnus": "Business ID:"
+    "contactinfo.y-tunnus": "Business ID:",
+    "cookiebanner.p1": "This website uses mandatory cookies to enable basic functions.",
+    "cookiebanner.button": "Accept"
   },
   "fi": {
     "home.heading1": "Tervetuloa PNP-Powerin sivuille!",
@@ -31,6 +33,8 @@
     "info.info_heading": "Yhteystiedot",
     "contactinfo.phone": "Puhelin:",
     "contactinfo.address": "Osoite:",
-    "contactinfo.y-tunnus": "Y-tunnus:"
+    "contactinfo.y-tunnus": "Y-tunnus:",
+    "cookiebanner.p1": "Tämä sivusto käyttää pakollisia evästeitä perustoimintojen mahdollistamiseksi.",
+    "cookiebanner.button": "Hyväksyn"
   }
 }

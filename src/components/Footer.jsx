@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import '../../src/Index.css'
 import * as FooterStyles from './Footer.module.css'
 import Icon2 from '../../public/icon.png'
@@ -6,14 +6,7 @@ import Envelope from '../../src/assets/Envelope.svg'
 import Phone from '../../src/assets/Phone.svg'
 import { Link } from 'react-router-dom'
 
-import { useTranslation } from 'react-i18next';
-import { LanguageContext } from '../context/LanguageContext';
-
 export default function Footer() {
-
-    const { t } = useTranslation();
-    const { language, changeLanguage } = useContext(LanguageContext);
-
   return (
     <div className={FooterStyles.footercontainer}>
     <Link to="/" onClick={() => window.scrollTo(0, 0)}>
