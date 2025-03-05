@@ -17,11 +17,11 @@ export default function ImageCarousel() {
             <img src="../../public/img15.jpg" className="d-block" alt="kolmonen" />
             </div>
         </div>
-        <button className="carousel-control-prev scale-50" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon scale-500 " aria-hidden="true"></span>
+        <button className="carousel-control-prev scale-50" style={{ marginLeft: 20 }} type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon scale-500" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
         </button>
-        <button className="carousel-control-next scale-50" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <button className="carousel-control-next scale-50" style={{ marginRight: 20 }} type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
             <span className="carousel-control-next-icon scale-500" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
         </button>
