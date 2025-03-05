@@ -6,22 +6,25 @@ import Cookiebanner from '../components/Cookiebanner'
 import ImageCarousel from '../components/ImageCarousel'
 import VideoBackground from '../components/Video'
 
+import { useTranslation } from 'react-i18next';
+
+
 export default function Home() {
+
+  const { t } = useTranslation();
+
   return (
     <div>
         <Navbar />
         <h1 className='mainheader'>PNP-POWER</h1>
-        <div className='text-center header text-4xl m-10'>Tervetuloa PNP-Powerin sivuille!
+        <div className='text-center header text-4xl m-10'>{t('home.heading1')}
         </div>
         <div className='textbox text-center'>
           <div className='listcontainer flex justify-center'>
-              <p>PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt.
-              Oikeastaan kaikki mikä liittyy kilpa-autoiluun.
+              <p>{t('home.paragraph1')}
               </p>
               <p>
-              Jälleenmyymme Turbosystems-turboahtimia,
-              voimansiirto-osia,
-              moottoriosia ja renkaita.
+              {t('home.paragraph2')}
               </p>
             </div>
         </div>

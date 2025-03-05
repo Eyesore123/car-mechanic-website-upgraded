@@ -1,0 +1,36 @@
+{
+  "en": {
+    "home.heading1": "Welcome to PNP-Power!",
+    "home.paragraph1": "PNP-POWER is a company located in Rantasalmi, primarily focused on race-related components. We specialize in transmission modifications, the manufacturing/selling of exhaust systems and exhaust system parts, custom parts production, 3D printing, milling and turning work. Basically anything related to motorsport.",
+    "home.paragraph2": "We resell Turbosystems turbochargers, transmission parts, engine parts, and tires.",
+    "navbar.nav1": "Home",
+    "navbar.nav2": "Contact us",
+    "navbar.nav3": "Gallery",
+    "navbar.nav4": "Products",
+    "navbar.nav5": "Info",
+    "contact.contact_heading": "Contact",
+    "contact.contact_header": "Contact us:",
+    "gallery.gallery_heading": "Gallery",
+    "info.info_heading": "Contact info",
+    "contactinfo.phone": "Phone:",
+    "contactinfo.address": "Address:",
+    "contactinfo.y-tunnus": "Business ID:"
+  },
+  "fi": {
+    "home.heading1": "Tervetuloa PNP-Powerin sivuille!",
+    "home.paragraph1": "PNP-POWER on Rantasalmella sijaitseva, pääasiallisesti race-osiin keskittyvä yritys. Meiltä onnistuu vaihteistojen muutostyöt, pakosarjojen sekä pakosarjojen osien valmistus/myynti, erikoisosien valmistus, 3d-tulostus, jyrsin- ja sorvaustyöt. Oikeastaan kaikki mikä liittyy kilpa-autoiluun.",
+    "home.paragraph2": "Jälleenmyymme Turbosystems-turboahtimia, voimansiirto-osia, moottoriosia ja renkaita.",
+    "navbar.nav1": "Etusivu",
+    "navbar.nav2": "Yhteydenotto",
+    "navbar.nav3": "Galleria",
+    "navbar.nav4": "Tuotteet",
+    "navbar.nav5": "Yhteystiedot",
+    "contact.contact_heading": "Yhteydenotto",
+    "contact.contact_header": "Ota yhteyttä:",
+    "gallery.gallery_heading": "Galleria",
+    "info.info_heading": "Yhteystiedot",
+    "contactinfo.phone": "Puhelin:",
+    "contactinfo.address": "Osoite:",
+    "contactinfo.y-tunnus": "Y-tunnus:"
+  }
+}

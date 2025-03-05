@@ -1,19 +1,19 @@
-import React, {useState} from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import * as NavbarStyles from './Navbar.module.css'
 
 import Icon from '../../public/icon.png'
 import InstaIcon from '../assets/insta.png'
 import TiktokIcon from '../assets/tiktok.png'
-import translations from '../../translations.json'
+
+import { useTranslation } from 'react-i18next';
+import { LanguageContext } from '../context/LanguageContext';
+
 
 export default function Navbar() {
 
-    const [language, setLanguage] = useState('en');
-
-    const handleLanguageChange = (event) => {
-      setLanguage(language === 'en' ? 'fi' : 'en');
-    };
+  const { t } = useTranslation();
+  const { language, changeLanguage } = useContext(LanguageContext);
 
   return (
     <div className={NavbarStyles.navbar}>
@@ -27,11 +27,11 @@ export default function Navbar() {
             </div>
             <div className="titlecontainer border-1 bottom border-white rounded-lg p-2">
               <div className="buttonscontainer">
-              <Link to="/"><button className={NavbarStyles.navbutton}>Etusivu</button></Link>
-              <Link to="/contact"><button className={NavbarStyles.navbutton}>Yhteydenotto</button></Link>
-              <Link to="/galleria"><button className={NavbarStyles.navbutton}>Galleria</button></Link>
-              <Link to="/products"><button className={NavbarStyles.navbutton}>Tuotteet</button></Link>
-              <Link to="/info"><button className={NavbarStyles.navbutton}>Yhteystiedot</button></Link>
+              <Link to="/"><button className={NavbarStyles.navbutton}>{t('navbar.nav1')}</button></Link>
+              <Link to="/contact"><button className={NavbarStyles.navbutton}>{t('navbar.nav2')}</button></Link>
+              <Link to="/galleria"><button className={NavbarStyles.navbutton}>{t('navbar.nav3')}</button></Link>
+              <Link to="/products"><button className={NavbarStyles.navbutton}>{t('navbar.nav4')}</button></Link>
+              <Link to="/info"><button className={NavbarStyles.navbutton}>{t('navbar.nav5')}</button></Link>
               </div>
             </div>
               <div className="md:ml-10 md:flex md:items-center">
@@ -49,9 +49,9 @@ export default function Navbar() {
                 </a>
                 </button>
               
-                {/* <button className={NavbarStyles.languagebutton} onClick={handleLanguageChange}>
-                {translations[language].language}
-                </button> */}
+                <button className={NavbarStyles.languagebutton} onClick={() => changeLanguage(language === 'fi' ? 'en' : 'fi')}>
+        {language === 'fi' ? 'EN' : 'FI'}
+      </button>
           
             </div>
 
