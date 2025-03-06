@@ -1,6 +1,8 @@
 import React from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
-import apiKey from '../../Other_files/key.js';
+
+const googleMapsApiKey = import.meta.env.VITE_PUBLIC_GOOGLE_MAPS_API_KEY;
+
 
 export default function Map() {
   const mapRef = React.createRef();
@@ -10,7 +12,7 @@ export default function Map() {
   async function initMap() {
 
     const loader = new Loader({
-      apiKey: apiKey,
+      apiKey: googleMapsApiKey,
       version: 'weekly',
     });
 

@@ -46,7 +46,7 @@ export default function Info() {
       3320795-6 </li>
       </p>
     </div>
-    {/* <Map /> */}
+    <Map />
     <Footer />
     </div>
   )
