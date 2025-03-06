@@ -34,7 +34,7 @@ export default function Form() {
   return (
     <div>
     <h3>{t('contact.contact_header')}</h3>
-      <form action="https://formspree.io/f/xeoqdklk" className={Formstyles.form} method="POST" onSubmit={handleSubmit}>
+      <form action="https://formspree.io/f/mdkobbvw" className={Formstyles.form} method="POST" onSubmit={handleSubmit}>
         <label className={Formstyles.label} htmlFor="name">{t('contact.contact_name')}</label>
         <input type="text" id="name" className={Formstyles.centered} name="name" required />
 

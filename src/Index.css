@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .textbox {
-  @apply pt-2 pb-2 bg-white justify-center text-black mt-30 lg:pt-12 lg:pb-20 box-border;
+  @apply pt-2 pb-2 bg-white justify-center text-black mt-12 lg:mt-30 lg:pt-12 lg:pb-20 box-border;
 }
 
 .header {
@@ -13,7 +13,7 @@ button {
 }
 
 p {
-  @apply text-black text-xl md:text-2xl pt-10 pb-6 m-10 justify-self-center md:max-w-2/3 w-full;
+  @apply text-black text-xl md:text-2xl pt-10 pb-6 m-10 justify-self-center w-full xl:pl-70 xl:pr-70;
 }
 
 body {
@@ -25,24 +25,25 @@ body {
 }
 
 h3 {
-  @apply pb-4 pt-6 pl-6 pr-6
+  @apply pb-2 pt-8 pl-6 pr-6 
 }
 
 /* .textbox li  */
 
 .listcontainer {
-  @apply flex flex-wrap justify-center
+  @apply flex flex-wrap justify-center items-center w-full
 }
 
-.listcontainer li {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 20px 50px;
-  text-align: center;
-  list-style-type: "🚗";
-  size: 2em;
-  
+p.listcontainer {
+  @apply w-full text-center
+}
+
+p.listcontainer {
+  @apply w-full text-center
+}
+
+li {
+  @apply flex list-none !w-full justify-center items-center text-center mt-4 mb-4 pl-4 pr-4
 }
 
 .pausebtn {

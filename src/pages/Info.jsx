@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../../src/Styles.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Map from '../components/Map'
@@ -18,22 +18,22 @@ export default function Info() {
     {t('info.info_heading')}
     </div>
     <div className='textbox text-center min-h-[55vh] -mb-8'>
-      <p className='w-full'>
-      <li>Niko Putkinen</li>
+      <p className='w-full p-0 m-0'>
+      <li className='pt-2'>Niko Putkinen</li>
       <br />    
-        <span>
-          <li className='flex justify-center gap-4 items-center'>
+        <span className='h-0.6'>
+          <li className='flex justify-center items-center w-full'>
             {/* <img src={Phone} width={30} className='flex'></img> */}
             {t('contactinfo.phone')}
           </li>
-          <li>
+          <li className='listcontainer'>
           040 841 4698
           </li>
         </span>
         <br />
-        <span>
+        <span className='h-0.8'>
           <li 
-          className='flex justify-center gap-4 items-center'
+          className='flex justify-center items-center w-full'
           >
             {/* <img src={Phone} width={30} className='flex'></img> */}
             {t('contactinfo.address')}

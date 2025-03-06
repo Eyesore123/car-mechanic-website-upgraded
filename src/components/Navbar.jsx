@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import * as NavbarStyles from './Navbar.module.css'
 
-import Icon from '../../public/icon.png'
+import Icon from '../../public/images/icon.png'
 import InstaIcon from '../assets/insta.png'
 import TiktokIcon from '../assets/tiktok.png'
 

@@ -3,28 +3,32 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import '../../src/Styles.css'
-import './Products.module.css'
+
+import { useTranslation } from 'react-i18next';
 export default function Products() {
+
+  const { t } = useTranslation();
+
   return (
     <>
         <Navbar />
-        <div className='text-center header'>Tuoteluettelo ja hinnasto</div>
+        <div className='text-center header'>{t('product.heading')}</div>
         <div className='textbox text-center'>
-        <h3>Turbosystems-turboahtimet:</h3>
-          <p>
+        <h3>{t('product.header1')}</h3>
+          <p className='listcontainer p-0 m-0'>
             <li>htx68b1 1350€</li>
             <li>htx4064 1300€</li>
-            <li>htx pakoputken vpantasarja 55€</li>
+            <li>{t('product.li3')}</li>
             </p>
-        <h3>Pakosarjatarvikkeet:</h3>
-        <p>
-          <li>T3 laippa 11€</li>
-          <li>T4 laippa 13€</li>
+        <h3>{t('product.header2')}</h3>
+        <p className='listcontainer p-0 m-0'>
+          <li>{t('product.li4')}</li>
+          <li>{t('product.li5')}</li>
         </p>
-        <h3>Ilmastointihuollot</h3>
-          <p>
-            <li>Sis. 200g kylmäainetta (r134a)&nbsp;45€</li>
-            <li>Sis. 50g kylmäainetta (r123yf) 60€</li>
+        <h3>{t('product.header3')}</h3>
+          <p className='listcontainer p-0 m-0'>
+            <li>{t('product.li6')}</li>
+            <li>{t('product.li7')}</li>
 
           </p>
         </div>
