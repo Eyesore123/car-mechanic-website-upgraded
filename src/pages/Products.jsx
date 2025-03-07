@@ -16,8 +16,8 @@ export default function Products() {
         <div className='textbox text-center'>
         <h3>{t('product.header1')}</h3>
           <p className='listcontainer p-0 m-0'>
-            <li>htx68b1 1350€</li>
-            <li>htx4064 1300€</li>
+            <li>htx4268b1 1350€</li>
+            <li>htx4064b1 1300€</li>
             <li>{t('product.li3')}</li>
             </p>
         <h3>{t('product.header2')}</h3>
