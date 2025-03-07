@@ -17,4 +17,4 @@ Issues
 
 Future plans
 
-* I have plans to add a shop. I think I'll add it on a different domain, and I'll make a button link which will redirect to the shop. Tech stack for the shop will by Firebase, Next.js, Node.js and React Redux. Or at least that is the plan.
+* I have plans to add a shop. I think I'll add it on a different domain, and I'll make a button link which will redirect to the shop. Tech stack for the shop will be Firebase, Next.js, Node.js and React Redux. Or at least that is the plan.
