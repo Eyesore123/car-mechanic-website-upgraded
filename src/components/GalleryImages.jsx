@@ -85,6 +85,7 @@ export default function GalleryImages() {
                 transition: 'transform 0.25s ease',
                 zIndex: enlargedPicture === image.id ? 1000 : '',
                 opacity: 1,
+                position: enlargedPicture === image.id ? 'abolute' : 'relative',
                 boxShadow: enlargedPicture === image.id ? 'none' : '0px 0px 10px rgba(0, 0, 0, 0.2)',
                 cursor: 'pointer',
               }}

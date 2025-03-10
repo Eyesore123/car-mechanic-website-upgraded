@@ -47,7 +47,7 @@ li {
 }
 
 .pausebtn {
-  @apply absolute top-0 left-0 h-full w-full cursor-pointer;
+  @apply h-0 absolute top-0 left-0 md:h-full w-full cursor-pointer;
 }
 
 
