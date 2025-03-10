@@ -5,7 +5,7 @@
 }
 
 .header {
-  @apply text-black text-4xl mt-18 mr-4 ml-4;
+  @apply text-black text-3xl md:text-4xl mt-18 mr-4 ml-4;
 }
 
 button {
@@ -13,7 +13,7 @@ button {
 }
 
 p {
-  @apply text-black text-xl md:text-2xl pt-10 pb-6 m-10 justify-self-center w-full xl:pl-70 xl:pr-70;
+  @apply text-black text-lg md:text-2xl pt-8 pb-4 md:pt-10 md:pb-6 m-6 md:m-10 justify-self-center w-full xl:pl-70 xl:pr-70;
 }
 
 body {

@@ -24,7 +24,7 @@ export default function GalleryImages() {
         { id: 15, src: '/images/img12.jpg', alt:'12' },
         { id: 16, src: '/images/img13.jpg', alt:'13' },
         { id: 17, src: '/images/img14.jpg', alt:'14' },
-        { id: 18, src: '/images/img4.jpg', alt:'15' },
+        { id: 18, src: '/images/img4.jpg', alt:'15' }
       ];
 
       const handlePictureClick = (picture) => {
@@ -41,11 +41,41 @@ export default function GalleryImages() {
     };
 
     return (
-        <div className="grid gap-4 grid-cols-auto md:grid-cols-2 lg:grid-cols-3 lg:ml-60 lg:mr-60 justify-items-center justify-content-center">
-          {images.map((image) => (
+      <div className="grid gap-4 grid-cols-auto md:grid-cols-2 lg:grid-cols-3 lg:ml-60 lg:mr-60 mt-8 justify-items-center justify-content-center">
+        {images.map((image) => (
+          <ImageWithFallback
+            key={image.id}
+            image={image}
+            activePicture={activePicture}
+            enlargedPicture={enlargedPicture}
+            handlePictureClick={handlePictureClick}
+            handlePictureMouseLeave={handlePictureMouseLeave}
+          />
+        ))}
+      </div>
+    );
+  }
+
+    function ImageWithFallback({ image, activePicture, enlargedPicture, handlePictureClick, handlePictureMouseLeave }) {
+        const[isLoading, setIsLoading] = useState(true);
+        const[src, setSrc] = useState(image.src);
+
+        const handleLoad = () => {
+            setIsLoading(false);
+        };
+        const handleError = () => {
+            setSrc('/images/icon.png');
+            setIsLoading(false);
+        };
+
+    return (
+      <div style={{ position: 'relative', width: '225px', height: '300px' }}>
+      {isLoading && (
+        <div className="spinner" style={spinnerStyle}></div>
+      )}
             <img
               key={image.id}
-              src={image.src}
+              src={src}
               width="225px"
               height="300px"
               alt={image.alt}
@@ -58,6 +88,8 @@ export default function GalleryImages() {
                 boxShadow: enlargedPicture === image.id ? 'none' : '0px 0px 10px rgba(0, 0, 0, 0.2)',
                 cursor: 'pointer',
               }}
+              onLoad={handleLoad}
+              onError={handleError}
               onMouseOver={(e) => {
                 e.target.style.transform = 'scale(1.1)';
                 e.target.style.boxShadow = '0px 0px 10px rgba(0, 255, 255, 0.9)';
@@ -69,7 +101,28 @@ export default function GalleryImages() {
               onClick={() => handlePictureClick(image.id)}
               onMouseLeave={() => handlePictureMouseLeave(image.id)}
             />
-          ))}
         </div>
-      );
+      )
     }
+
+const spinnerStyle = {
+  position: 'absolute',
+  top: '30%',
+  left: '30%',
+  width: '100px',
+  height: '100px',
+  border: '4px solid rgba(0, 0, 0, 0.1)',
+  borderTop: '4px solid #3498db',
+  borderRadius: '50%',
+  animation: 'spin 1s linear infinite',
+  transform: 'translate(-50%, -50%)',
+};
+
+const styles = `
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+`;
+
+document.head.insertAdjacentHTML('beforeend', `<style>${styles}</style>`);

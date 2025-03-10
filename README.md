@@ -17,6 +17,4 @@ Issues
 
 Future plans
 
-* Images should have a fallback in case they don't load, so I have plans to add a fallback image and a loading animation while the images are loading.
-
-* I have plans to add a shop. I think I'll add it on a different domain, and I'll make a button link which will redirect to the shop. Tech stack for the shop will be Firebase, Next.js, Node.js and React Redux. Or at least that is the plan.
+* I have plans to add a shop. I think I'll add it on a different domain, and I'll make a button link which will redirect to the shop. Tech stack for the shop will be Firebase, Next.js, Node.js and React Redux. And I'll use TypeScript. Or at least that is the plan.
