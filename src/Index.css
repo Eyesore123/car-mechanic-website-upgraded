@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .textbox {
-  @apply pt-2 pb-2 bg-white justify-center text-black mt-12 lg:mt-30 lg:pt-12 lg:pb-20 box-border;
+  @apply pt-2 pb-2 bg-white justify-center text-black mt-12 lg:mt-30 lg:pt-6 lg:pb-14 box-border;
 }
 
 .header {
@@ -47,14 +47,9 @@ li {
 }
 
 .pausebtn {
-  @apply absolute top-0 left-0 lg:w-full lg:h-full cursor-pointer;
+  @apply absolute top-0 left-0 h-full w-full cursor-pointer;
 }
 
-@media (max-width: 1023px) { /* For smaller screens */
-  .pausebtn {
-    @apply hidden; /* Hide the button on small screens */
-  }
-}
 
 /* 
 .listcontainer li::marker {
