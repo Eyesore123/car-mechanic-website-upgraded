@@ -44,6 +44,7 @@ export default function Info() {
       <br />
       <li>{t('contactinfo.y-tunnus') + " "} 
       3320795-6 </li>
+      <br />
       </p>
     </div>
     <Map />

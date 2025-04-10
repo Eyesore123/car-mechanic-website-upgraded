@@ -4,17 +4,17 @@ This is an upgrade to a car mechanic website. Compared to the previous version, 
 
 Tech stack used:
 
-* React.js
-* Tailwind CSS
-* Bootstrap
-* Node.js - i18n package for internalization
+- React.js
+- Tailwind CSS
+- Bootstrap
+- Node.js - i18n package for internalization
 
 Issues
 
-* Button effect flashes for some reason.
-* Background video should be smaller on larger screens but I'm too damn lazy and haven't adjusted it yet.
-* Images load too slow, because I haven't done any optimization.
+- Button effect flashes for some reason.
+- Images load too slow, because I haven't done any optimization. It's not the worst experience but it could be a little better.
 
 Future plans
 
-* I have plans to add a shop. I think I'll add it on a different domain, and I'll make a button link which will redirect to the shop. Tech stack for the shop will be Firebase, Next.js, Node.js and React Redux. And I'll use TypeScript. Or at least that is the plan.
+- A separate shop with its own domain or subdomain. Then user can use links to navigate between sites. Shop preview here:
+  https://car-mechanic-website-shop.vercel.app/

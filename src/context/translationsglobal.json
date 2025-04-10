@@ -36,11 +36,14 @@
     "product.header1": "Turbosystems Turbochargers:",
     "product.header2": "Exhaust Manifold Accessories:",
     "product.header3": "Air Conditioning Services:",
+    "product.header4": "Summer tires special offer!",
     "product.li3": "htx exhaust pipe V-band kit 55€",
     "product.li4": "T3 flange 11€",
     "product.li5": "T4 flange 13€",
-    "product.li6": "Incl. 200g refrigerant (r134a) 45€",
-    "product.li7": "Incl. 50g refrigerant (r123yf) 60€"
+    "product.li6": "Incl. 200g refrigerant (r134a) 50€",
+    "product.li7": "Incl. 50g refrigerant (r1234yf) 50€",
+    "product.li8": "Triangle 205/55/16, installation included, for only 260€",
+    "product.li9": "Road X 205/55/16 260€, installation included, for only 280€"
   },
   
   "fi": {
@@ -79,12 +82,14 @@
     "product.heading": "Tuotteet ja hinnasto",
     "product.header1": "Turbosystems-turboahtimet:",
     "product.header2": "Pakosarjatarvikkeet:",
-    "product.header3": "Ilmastointihuollot:",
+    "product.header3": "Ilmastointilaitehuollot:",
+    "product.header4": "Kesärenkaat spessutarjous!",
     "product.li3": "htx pakoputken v-pantasarja 55€",
     "product.li4": "T3-laippa 11€",
     "product.li5": "T4-laippa 13€",
-    "product.li6": "Sis. 200g kylmäainetta (r134a) 45€",
-    "product.li7": "Sis. 50g kylmäainetta (r123yf) 60€"
-
+    "product.li6": "Sis. 200g kylmäainetta (r134a) 50€",
+    "product.li7": "Sis. 50g kylmäainetta (r1234yf) 50€",
+    "product.li8": "Triangle 205/55/16 alle laitettuna vain 260€",
+    "product.li9": "Road X 205/55/16 260€ alle laitettuna vain 280€"
   }
 }

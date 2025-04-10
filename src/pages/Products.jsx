@@ -14,6 +14,11 @@ export default function Products() {
         <Navbar />
         <div className='text-center header'>{t('product.heading')}</div>
         <div className='textbox text-center'>
+        <h3>{t('product.header4')}</h3>
+          <p className='listcontainer p-0 m-0'>
+            <li>{t('product.li8')}</li>
+            <li>{t('product.li9')}</li>
+          </p>
         <h3>{t('product.header1')}</h3>
           <p className='listcontainer p-0 m-0'>
             <li>htx4268b1 1350€</li>
@@ -29,7 +34,6 @@ export default function Products() {
           <p className='listcontainer p-0 m-0'>
             <li>{t('product.li6')}</li>
             <li>{t('product.li7')}</li>
-
           </p>
         </div>
         <Footer />
