@@ -17,7 +17,6 @@ export default function Form() {
             body: formData,
             headers: {
               'Accept': 'application/json',
-              'Content-Type': 'application/x-www-form-urlencoded',
             },
           });
           if (response.ok) {
