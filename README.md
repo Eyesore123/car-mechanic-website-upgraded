@@ -12,7 +12,6 @@ Tech stack used:
 Issues
 
 - Button effect flashes for some reason.
-- Images load too slow, because I haven't done any optimization. It's not the worst experience but it could be a little better.
 
 Future plans
 

@@ -1,15 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="fi">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <link rel="icon" type="image/png" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/Styles.css" rel="stylesheet">
-    <title>PNP-Power</title>
+
+    <!-- SEO -->
+    <title>PNP-Power | Autokorjaamo ja custom-osien valmistaja</title>
+    <meta name="description" content="Autokorjaamo, jossa myydään custom-osia kilpa-autoihin ja korjataan erilaisia menopelejä. Edulliset hinnat, kysy tarjous!">
+    <meta name="keywords" content="autokorjaamo, custom-osat, kilpa-autot, auton korjaus, Niko Putkinen, PNP-Power, car mechanic, motorsports, tuning, Rantasalmi">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.pnp-power.fi">
+
+    <!-- Social sharing -->
+    <meta property="og:title" content="PNP-Power | Autokorjaamo ja custom-osien valmistaja">
+    <meta property="og:description" content="Myymme ja valmistamme osia kilpa-autoihin sekä korjaamme ajoneuvoja edullisesti.">
+    <meta property="og:url" content="https://www.pnp-power.fi">
+    <meta property="og:image" content="https://www.pnp-power.fi/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- CSP & Security Headers (fallbacks, real ones go in server config) -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline';
+      style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+      connect-src 'self' https://formspree.io;
+      img-src 'self' data: https://cdn.jsdelivr.net https://www.instagram.com https://www.tiktok.com;
+      font-src 'self' https://cdn.jsdelivr.net;
+      frame-src https://www.instagram.com https://www.tiktok.com;
+      object-src 'none';
+      upgrade-insecure-requests;
+    ">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Niko Putkinen - Autokorjaamo ja custom-osien valmistaja",
+        "description": "Autokorjaamo, jossa myydään custom-osia kilpa-autoihin ja korjataan erilaisia menopelejä. Edulliset hinnat, kysy tarjous!",
+        "keywords": ["car mechanic", "autokorjaamo", "cars", "Niko Putkinen"],
+        "url": "https://www.pnp-power.fi"
+      }
+    </script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/src/Styles.css">
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Scripts -->
     <script type="module" src="/src/main.jsx"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
