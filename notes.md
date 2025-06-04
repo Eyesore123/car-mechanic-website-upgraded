@@ -1,4 +1,4 @@
-Add to .htaccess like this case you're using Apache:
+Add this to .htaccess in case you're using Apache:
 
 # Enable rewrite engine once
 
