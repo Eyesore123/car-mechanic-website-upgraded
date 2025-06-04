@@ -46,7 +46,7 @@ export default function Form() {
         <button type="submit" className={Formstyles.submitbtn}>{t('contact.button')}</button>
 
         <div id="message-sent" className={Formstyles.msgsent} style={{ display: "none" }}>
-          <p>{t('contact.feedback')}</p>
+          <div className='text-black'>{t('contact.feedback')}</div>
         </div>
       </form>
     </div>
