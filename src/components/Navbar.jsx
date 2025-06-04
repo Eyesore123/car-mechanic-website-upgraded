@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import * as NavbarStyles from './Navbar.module.css'
 
 import Icon from '../../public/images/icon.png'
-import InstaIcon from '../assets/insta.png'
+import InstaIcon from '../assets/insta2.svg'
 import TiktokIcon from '../assets/tiktok.png'
 
 import { useTranslation } from 'react-i18next';

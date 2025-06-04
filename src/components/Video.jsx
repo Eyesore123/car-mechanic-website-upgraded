@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react'
-import Videoelement from '../assets/video1.mp4'
+import Videoelement from '../assets/compressedvideo.mp4'
 
 export default function VideoBackground() {
 
