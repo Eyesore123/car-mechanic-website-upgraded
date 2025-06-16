@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Gallery from './pages/Gallery'
 import Products from './pages/Products'
 import Info from './pages/Info'
+import NotFound from './pages/NotFound'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/galleria" element={<Gallery />} />
           <Route path="/products" element={<Products />} />
           <Route path="/info" element={<Info />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

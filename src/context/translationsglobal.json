@@ -43,7 +43,11 @@
     "product.li6": "Incl. 200g refrigerant (r134a) 50€",
     "product.li7": "Incl. 50g refrigerant (r1234yf) 50€",
     "product.li8": "Triangle 205/55/16, installation included, for only 260€",
-    "product.li9": "Road X 205/55/16 260€, installation included, for only 280€"
+    "product.li9": "Road X 205/55/16 260€, installation included, for only 280€",
+    "notFound": {
+      "heading": "Page Not Found",
+      "message": "Sorry, the page you're looking for doesn't exist. Are you sure the URL is correct?"
+    }
   },
   
   "fi": {
@@ -90,6 +94,10 @@
     "product.li6": "Sis. 200g kylmäainetta (r134a) 50€",
     "product.li7": "Sis. 50g kylmäainetta (r1234yf) 50€",
     "product.li8": "Triangle 205/55/16 alle laitettuna vain 260€",
-    "product.li9": "Road X 205/55/16 260€ alle laitettuna vain 280€"
+    "product.li9": "Road X 205/55/16 260€ alle laitettuna vain 280€",
+    "notFound": {
+      "heading": "Sivua ei löytynyt",
+      "message": "Antamaasi sivua ei löytynyt. Oletko varma, että osoite on oikein?"
+    }
   }
 }
