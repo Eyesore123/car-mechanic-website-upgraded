@@ -56,7 +56,7 @@ export default function GalleryImages() {
     );
   }
 
-    function ImageWithFallback({ image, activePicture, enlargedPicture, handlePictureClick, handlePictureMouseLeave }) {
+  function ImageWithFallback({ image, activePicture, enlargedPicture, handlePictureClick, handlePictureMouseLeave }) {
     const [isLoading, setIsLoading] = useState(true);
     const [src, setSrc] = useState(image.src);
 
@@ -70,39 +70,39 @@ export default function GalleryImages() {
 
     return (
         <div style={{ position: 'relative', width: '225px', height: '300px' }}>
-            {isLoading ? (
+            {isLoading && (
                 <div className="spinner" style={spinnerStyle}></div>
-            ) : (
-                <img
-                    key={image.id}
-                    src={src}
-                    width="225px"
-                    height="300px"
-                    alt={image.alt}
-                    className={`${activePicture === image.id ? 'active' : ''}`}
-                    style={{
-                        transform: enlargedPicture === image.id ? 'scale(2.5)' : 'scale(1)',
-                        transition: 'transform 0.25s ease',
-                        zIndex: enlargedPicture === image.id ? 1000 : '',
-                        opacity: 1,
-                        position: enlargedPicture === image.id ? 'abolute' : 'relative',
-                        boxShadow: enlargedPicture === image.id ? 'none' : '0px 0px 10px rgba(0, 0, 0, 0.2)',
-                        cursor: 'pointer',
-                    }}
-                    onLoad={handleLoad}
-                    onError={handleError}
-                    onMouseOver={(e) => {
-                        e.target.style.transform = 'scale(1.1)';
-                        e.target.style.boxShadow = '0px 0px 10px rgba(0, 255, 255, 0.9)';
-                    }}
-                    onMouseOut={(e) => {
-                        e.target.style.transform = 'scale(1)';
-                        e.target.style.boxShadow = '0px 0px 0px rgba(0, 0, 0, 0.4)';
-                    }}
-                    onClick={() => handlePictureClick(image.id)}
-                    onMouseLeave={() => handlePictureMouseLeave(image.id)}
-                />
             )}
+            <img
+                key={image.id}
+                src={src}
+                width="225px"
+                height="300px"
+                alt={image.alt}
+                className={`${activePicture === image.id ? 'active' : ''}`}
+                style={{
+                    visibility: isLoading ? 'hidden' : 'visible', // <-- Hide alt text while loading
+                    transform: enlargedPicture === image.id ? 'scale(2.5)' : 'scale(1)',
+                    transition: 'transform 0.25s ease',
+                    zIndex: enlargedPicture === image.id ? 1000 : '',
+                    opacity: 1,
+                    position: enlargedPicture === image.id ? 'abolute' : 'relative',
+                    boxShadow: enlargedPicture === image.id ? 'none' : '0px 0px 10px rgba(0, 0, 0, 0.2)',
+                    cursor: 'pointer',
+                }}
+                onLoad={handleLoad}
+                onError={handleError}
+                onMouseOver={(e) => {
+                    e.target.style.transform = 'scale(1.1)';
+                    e.target.style.boxShadow = '0px 0px 10px rgba(0, 255, 255, 0.9)';
+                }}
+                onMouseOut={(e) => {
+                    e.target.style.transform = 'scale(1)';
+                    e.target.style.boxShadow = '0px 0px 0px rgba(0, 0, 0, 0.4)';
+                }}
+                onClick={() => handlePictureClick(image.id)}
+                onMouseLeave={() => handlePictureMouseLeave(image.id)}
+            />
         </div>
     );
 }
