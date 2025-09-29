@@ -1,6 +1,6 @@
-if (window.location.protocol === 'http:') {
-  window.location.href = window.location.href.replace('http:', 'https:');
-}
+// if (window.location.protocol === 'http:') {
+//   window.location.href = window.location.href.replace('http:', 'https:');
+// }
 
 import React from 'react'
 import { StrictMode } from 'react'
