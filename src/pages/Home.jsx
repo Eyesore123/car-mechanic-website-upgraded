@@ -5,9 +5,7 @@ import Navbar from '../components/Navbar'
 import Cookiebanner from '../components/Cookiebanner'
 import ImageCarousel from '../components/ImageCarousel'
 import VideoBackground from '../components/Video'
-
 import { useTranslation } from 'react-i18next';
-
 
 export default function Home() {
 
@@ -48,6 +46,7 @@ export default function Home() {
         <VideoBackground />
         <Footer />
         <Cookiebanner />
+
     </div>
   )
 }

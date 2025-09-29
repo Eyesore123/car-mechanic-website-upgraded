@@ -47,7 +47,8 @@
     "notFound": {
       "heading": "Page Not Found",
       "message": "Sorry, the page you're looking for doesn't exist. Are you sure the URL is correct?"
-    }
+    },
+    "backToTop": "Back to top"
   },
   
   "fi": {
@@ -98,6 +99,7 @@
     "notFound": {
       "heading": "Sivua ei löytynyt",
       "message": "Antamaasi sivua ei löytynyt. Oletko varma, että osoite on oikein?"
-    }
+    },
+    "backToTop": "Sivun alkuun"
   }
 }

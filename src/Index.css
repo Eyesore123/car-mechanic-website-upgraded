@@ -8,9 +8,9 @@
   @apply text-black text-3xl md:text-4xl mt-18 mr-4 ml-4;
 }
 
-button {
+/* button {
   @apply p-2;
-}
+} */
 
 p {
   @apply text-black text-lg md:text-2xl pt-8 pb-4 md:pt-10 md:pb-6 m-6 md:m-10 justify-self-center w-full xl:pl-70 xl:pr-70;
@@ -21,41 +21,40 @@ body {
 }
 
 .mainheader {
-  @apply text-5xl mt-0 text-center md:text-7xl font-bold md:mt-10 pt-20
+  @apply text-5xl mt-0 text-center md:text-7xl font-bold md:mt-10 pt-20;
 }
 
 h3 {
-  @apply pb-2 pt-8 pl-6 pr-6 
+  @apply pb-2 pt-8 pl-6 pr-6;
 }
 
 /* .textbox li  */
 
 .listcontainer {
-  @apply flex flex-wrap justify-center items-center w-full
+  @apply flex flex-wrap justify-center items-center w-full;
 }
 
 p.listcontainer {
-  @apply w-full text-center
+  @apply w-full text-center;
 }
 
 p.listcontainer {
-  @apply w-full text-center
+  @apply w-full text-center;
 }
 
 li {
-  @apply flex list-none !w-full justify-center items-center text-center mt-4 mb-4 pl-4 pr-4
+  @apply flex list-none !w-full justify-center items-center text-center mt-4 mb-4 pl-4 pr-4;
 }
 
 .pausebtn {
   @apply h-0 absolute top-0 left-0 md:h-full w-full cursor-pointer;
 }
 
-
 /* 
 .listcontainer li::marker {
   font-size: 1.5em;
 } */
 
-* {
+/* * {
   max-width: 100vw;
-}
+} */
