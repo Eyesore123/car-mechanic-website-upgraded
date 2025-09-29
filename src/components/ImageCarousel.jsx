@@ -7,7 +7,10 @@ export default function ImageCarousel() {
     <div className='carouselcontainer justify-center height-100 bg-cyan-300 -mb-10'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="5000">
+            <div className="carousel-item active" data-bs-interval="4000">
+            <img src="/images/pnpcar2.png" className="d-block" alt="pnp-power car" />
+            </div>
+            <div className="carousel-item">
             <img src="/images//turbosystems.jpg" className="d-block" alt="jotain" />
             </div>
             <div className="carousel-item">
@@ -29,5 +32,3 @@ export default function ImageCarousel() {
     </div>
   )
 }
-
-// Use object-fit-contain on the carousel img if the image is not as wide!
