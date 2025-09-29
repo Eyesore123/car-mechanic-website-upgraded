@@ -1,6 +1,20 @@
 .carousel-item img {
-    margin: auto;
-    width: 100%;
-    max-height: 1100px; /* adjust this value to your desired height */
-    object-fit: cover;
-  }
+  margin: auto;
+  width: 100%;
+  max-height: 1100px; /* adjust this value to your desired height */
+  object-fit: cover;
+}
+
+/* Only center pnpcar2.png */
+.carousel-item-center {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  height: 100%;
+}
+
+.carousel-item-center img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain; /* preserve aspect ratio */
+}
